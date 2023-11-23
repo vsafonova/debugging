@@ -11,7 +11,7 @@ Found an error in the console pointing to an incorrect line. I fixed that by add
 
 Line 3:  
 Runtime error, `formEL` is `null`.  
-Found an error `TypeError: Cannot read properties of null (reading 'addEventListener')` in the console pointing to an incorrect line №39. I added the searching element by id and added `#` before the element.  
+Found an error `TypeError: Cannot read properties of null (reading 'addEventListener')` in the console pointing to an incorrect line №39. I added `#` before the element to search by id.  
 
 Line 4:  
 Runtime error, misspelled function name. `.querySelectr` is `undefined`, so we try to call `undefined` as a function.   
@@ -19,15 +19,15 @@ Found an error `TypeError: document.querySelectr is not a function` in the conso
 
 Line 4:  
 Runtime error, `cityInputEl` is `null`.  
-Found an error `TypeError: Cannot read properties of null (reading 'value')` in the console pointing to an incorrect line №11. I added the searching element by id and add `#` before the element.  
+Found an error `TypeError: Cannot read properties of null (reading 'value')` in the console pointing to an incorrect line №11. I added `#` before the element to search by id.  
 
 Line 5:  
 Runtime error, `tempEl` is `null`.  
-Found an error `TypeError: Cannot set properties of null (setting 'textContent')` in the console pointing to an incorrect line №19. I added the searching element by id and add `#` before the element.  
+Found an error `TypeError: Cannot set properties of null (setting 'textContent')` in the console pointing to an incorrect line №19. I added `#` before the element to search by id.  
 
 Line 6:  
 Runtime error, `messageEl` is `null`.  
-Found an error `TypeError: Cannot set properties of null (setting 'textContent')` in the console pointing to an incorrect line №29. I added the searching element by id and add `#` before the element.  
+Found an error `TypeError: Cannot set properties of null (setting 'textContent')` in the console pointing to an incorrect line №29. I added `#` before the element to search by id.  
 
 Line 17:  
 Runtime error, `data.temp` is `NaN`.  
