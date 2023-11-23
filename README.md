@@ -1,9 +1,9 @@
 # Debugging report
 
-When I try to submit an empty form
+When I try to submit an empty form  
 Lines 10, 17:  
 Runtime error.   
-Found an errors `400 (Bad request)` and `TypeError: Cannot read properties of undefined (reading 'temp')` in the console pointing to an incorrect line. Wrote `required` attribute of the input. 
+Found errors `400 (Bad request)` and `TypeError: Cannot read properties of undefined (reading 'temp')` in the console pointing to an incorrect line. Wrote `required` attribute of the input. 
 
 Line 3:  
 Syntax error, missing closing quote.  
@@ -11,9 +11,9 @@ Found an error in the console pointing to an incorrect line. I fixed that by add
 
 Line 3:  
 Runtime error, `formEL` is `null`.  
-Found an error `TypeError: Cannot read properties of null (reading 'addEventListener')` in the console pointing to an incorrect line №39. I added the searching element by id and add `#` before the element.  
+Found an error `TypeError: Cannot read properties of null (reading 'addEventListener')` in the console pointing to an incorrect line №39. I added the searching element by id and added `#` before the element.  
 
-Line 4:
+Line 4:  
 Runtime error, misspelled function name. `.querySelectr` is `undefined`, so we try to call `undefined` as a function.   
 Found an error `TypeError: document.querySelectr is not a function` in the console pointing to an incorrect line.  
 
@@ -37,9 +37,9 @@ Line 17:
 Logical error, incorrect data display.  
 I saw incorrect data displayed on the webpage. To round the resulting value to the nearest integer, we need to use the appropriate mathematical method.  
 
-Line 19:
+Line 19:  
 Syntax error, incorrect data display.   
-I saw incorrect data displayed on the webpage. Using template literals with `${}` inside backticks is a correct syntax for string interpolation in JavaScript.  
+I saw incorrect data displayed on the webpage. Using template literals with `${}` inside backticks is the correct syntax for string interpolation in JavaScript.  
 
 Lines 28, 30, 32, 34:  
 Logical error, if-statement is flipped.  
