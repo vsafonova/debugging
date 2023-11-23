@@ -38,7 +38,7 @@ Logical error, incorrect data display.
 I saw incorrect data displayed on the webpage. To round the resulting value to the nearest integer, we need to use the appropriate mathematical method.  
 
 Line 19:  
-Syntax error, incorrect data display.   
+Logical error, incorrect data display.   
 I saw incorrect data displayed on the webpage. Using template literals with `${}` inside backticks is the correct syntax for string interpolation in JavaScript.  
 
 Lines 28, 30, 32, 34:  
@@ -49,6 +49,6 @@ Line 39:
 Syntax error, the improper declaration of the event listener function.  
 Found an error in the console pointing to an incorrect  line.  
 
-Line 40:
-Syntax error,  improper syntax of the method to prevent the default behavior.  
-Found an error in the console pointing to an incorrect  line. In JavaScript, when using the `addEventListener` method to handle events, we need to pass a function that takes an event object as its parameter. There is a mistake in calling `preventDefault()`. The correct syntax is `e.preventDefault();`, where e is the event object passed to the function.
+Line 40:  
+Runtime error, improper usage of the method to prevent the default behavior.  
+Found an error in the console pointing to an incorrect  line. In JavaScript, when using the `addEventListener` method to handle events, we need to pass a function that takes an event object as its parameter. There is a mistake in calling `preventDefault()`. The correct usage is `e.preventDefault();`, where e is the event object passed to the function.
