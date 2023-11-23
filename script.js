@@ -14,7 +14,7 @@ async function getData() {
 
   // We get temperatures back in Kelvin so we need to convert nto Celsius
   // https://www.rapidtables.com/convert/temperature/kelvin-to-celsius.html
-  let temp = Math.floor(data.main.temp - 273.15);
+  let temp = Math.round(data.main.temp - 273.15);
   
   tempEl.textContent = `${temp}°C`;
 
