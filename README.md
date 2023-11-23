@@ -30,8 +30,8 @@ Runtime error, `messageEl` is `null`.
 Found an error `TypeError: Cannot set properties of null (setting 'textContent')` in the console pointing to an incorrect line №29. I added `#` before the element to search by id.  
 
 Line 17:  
-Runtime error, `data.temp` is `undefined`.  
-Used the debugger in the developer panel to watch the execution code step by step. Having reached line 17, I discovered that there is no such data in the API. To access the data with temperature I need to use `data.main.temp`.  
+Runtime error,  the variable `temp` showed as `NaN`.  
+Used the debugger in the developer panel to watch the execution code step by step. Having reached line 17, I discovered that there is no such data in the API because `data.temp` is `undefined`. To access the data with temperature I need to use `data.main.temp`.  
 
 Line 17:  
 Logical error, incorrect data display.  
