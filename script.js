@@ -11,11 +11,12 @@ async function getData() {
     `https://api.openweathermap.org/data/2.5/weather?q=${cityInputEl.value}&appid=8f20807cea52eed92572aea82df038d5`
   );
   let data = await res.json();
+
   // We get temperatures back in Kelvin so we need to convert nto Celsius
   // https://www.rapidtables.com/convert/temperature/kelvin-to-celsius.html
   let temp = Math.floor(data.main.temp - 273.15);
+  
   tempEl.textContent = `${temp}°C`;
-
 
   // Different temperature ranges should print different messages:
   //
