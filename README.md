@@ -1,14 +1,17 @@
-# Debugging report
+# Brief
+Debug and fix common errors in Javascript such as syntax errors, logic errors, and runtime errors using the built-in tools in the browser.
+
+## Debugging report
 
 ***When I try to submit an empty form  
 Lines 10, 17:  
 Runtime error.   
-Found errors `400 (Bad request)` and `TypeError: Cannot read properties of undefined (reading 'temp')` in the console pointing to an incorrect line. Wrote `required` attribute of the input. 
+Found errors `400 (Bad request)` and `TypeError: Cannot read properties of undefined (reading 'temp')` in the console pointing to an incorrect line. Wrote the `required` attribute of the input. 
 
 *** When I try to submit a form with invalid value(Unxisting city, set of letters, space, number)  
 Line 10:  
 Runtime error.  
-Found error `404 (Not found)` in the console pointing to an incorrect line. Used a debugger to see where is the mistake, and discovered that in API `res:false` when I input an invalid value. So I wrote a conditional into the function `getData()`
+Found error `404 (Not found)` in the console pointing to an incorrect line. Used a debugger to see where is the mistake, and discovered that in API `res: false` when I input an invalid value. So I wrote a conditional into the function `getData()`
 
 Line 3:  
 Syntax error, missing closing quote.  
